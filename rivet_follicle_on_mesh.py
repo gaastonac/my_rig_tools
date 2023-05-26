@@ -8,4 +8,3 @@ for ctl in cmds.ls(sl=True):
     cmds.connectAttr('{}Shape.outRotate'.format(follicle), '{}.r'.format(follicle), f=True)
     cmds.connectAttr('{}Shape.outTranslate'.format(follicle), '{}.t'.format(follicle), f=True)
 
-    #test
